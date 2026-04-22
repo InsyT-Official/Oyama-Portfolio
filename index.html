@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#intro" class="brand">Oyama<span> Selwyn</span> Mama</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#map-section">Map</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INTRODUCTION -->
+    <section id="intro" class="section hero reveal">
+      <div class="section-label">Introduction</div>
+
+      <div class="hero-grid">
+        <div class="hero-copy glass-card">
+          <p class="eyebrow">Bsc in Computer Science (University of Stellenbosch)</p>
+          <h2>
+            <span class="accent-blue">Oyama Mama</span>.
+            <span class="accent-yellow">Born in Port Elizabeth in the Eastern Cape</span>.
+            Soft Product designer and developer based in Cape Town, South Africa.
+          </h2>
+
+          <p class="lead">
+            I am <strong>Oyama Selwyn Mama</strong>, from <strong>Port Elizabeth, Eastern Cape</strong>.
+            I build digital products, tools, and applications with a focus on clean interfaces,
+            practical engineering, and thoughtful problem solving.
+          </p>
+
+          <p class="body-text">
+            I have been developing tools and products for <strong>nearly 7 years</strong>, and my work has included
+            projects such as <strong>Brand Commerce platforms</strong>, <strong>SaaS Solutions</strong>,
+            and <strong>recently, AI-powered solutions</strong> to businesses and individuals. My approach is minimal, precise, and built for
+            long-term usefulness.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-panel glass-card">
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-value">{ 7 }</span>
+              <span class="stat-label">Years coding</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">[13]</span>
+              <span class="stat-label">Total projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">[4]</span>
+              <span class="stat-label">Tools built</span>
+            </div>
+          </div>
+
+          <div class="panel-line"></div>
+
+          <p class="panel-text">
+            13 projects and tools built, with a focus on clean interfaces, practical engineering, and thoughtful problem solving.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <div class="section-label">About</div>
+
+      <div class="content-grid">
+        <div class="glass-card section-card">
+          <h2>Current Focus</h2>
+          <p>
+            I am currently working on <strong class="accent-yellow">InsyT</strong>.
+            It is a <strong class="accent-yellow">Event Management and Digital Ticketing Platform</strong> which was first launched in 2023 and has been a steadily growing platform
+            <strong>. With just over 500 users</strong>, since my arrival in Cape Town it has been a priority to scale and grow the platform beyond my imagtionation and that goal is still running it's course in 2026.
+          </p>
+        </div>
+
+        <div class="glass-card section-card">
+          <h2>Progress</h2>
+          <div class="progress-block">
+            <div class="progress-top">
+              <span>Development Progress</span>
+              <span>55.37%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 55%;"></div>
+            </div>
+             <p>
+              The platform has achived 530+ users and is aiming at registering more Event Organizers, Venues, and Attendees. The platform is mainly focused on the South African events marketplace and plans to reach <strong class="accent-yellow">1000+ users</span> by the <strong class="accent-yellow">end of 2026.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+      <div class="section-label">Projects</div>
+
+      <div class="section-heading">
+        <h2>Selected Work</h2>
+        <p>Cards for image, title, date published, and link.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card">
+          <div class="project-image">
+            <img src="/img-asset/Story Cape Town.jpg" alt="Story Cape Town">
+          </div>
+          <div class="project-body">
+            <h3>Story Cape Town</h3>
+            <p class="project-meta">Published: 2024</p>
+            <a href="https://www.story.capetown/" class="project-link">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card">
+          <div class="project-image">
+            <img src="/img-asset/insytlogo.png" alt="InsyT logo">
+          </div>
+          <div class="project-body">
+            <h3>InsyT</h3>
+            <p class="project-meta">Published: 2023</p>
+            <a href="https://insyt-oukm.onrender.com/about" class="project-link">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card">
+          <div class="project-image">
+            <img src="/img-asset/6396fd49e7fdcb560d37e2f7_harringtons-wht.webp" alt="harringtons cocktail lounge">
+          </div>
+          <div class="project-body">
+            <h3>Harringtion Street Cocktail Lounge</h3>
+            <p class="project-meta">Published: 2025</p>
+            <a href="https://www.harringtonstreet.co.za" class="project-link">View Project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- MAP -->
+    <section id="map-section" class="section reveal">
+      <div class="section-label">Map</div>
+
+      <div class="section-heading">
+        <h2>Delft, Cape Town</h2>
+        <p>Interactive location panel.</p>
+      </div>
+
+      <div class="glass-card map-card">
+        <div id="map"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <div class="section-label">Contact</div>
+
+      <div class="contact-wrap">
+        <div class="glass-card contact-card">
+          <h2>Let us connect</h2>
+          <p>Social media and direct contact.</p>
+
+          <div class="contact-items">
+            <a href="mailto:oyama.insyt@gmail.com" class="contact-item">
+              <span class="contact-icon">✉</span>
+              <span>oyama.insyt@gmail.com</span>
+            </a>
+
+            <a href="tel:+27638085908" class="contact-item">
+              <span class="contact-icon">☎</span>
+              <span>+27 63 808 5908</span>
+            </a>
+
+            <a href="https://za.linkedin.com/in/oyama-mama-125000377 " class="contact-item" >
+              <span class="contact-icon">◈</span>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Oyama Selwyn Mama</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
